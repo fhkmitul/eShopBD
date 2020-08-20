@@ -1,0 +1,50 @@
+:root{
+  --mainBlue: #1C05F4;
+  --lightBlue: #1696F8;
+  --mainwhite: #f3f3f3;
+  --newWhite: #f3f3f3d0;
+  --mainDark: #23272B;
+  --mainYellow: #F0AD04;
+  --mainInfo: #17A2B8;
+  --mainSuccess:#28A745;
+  --lightSuccess: #67A300;
+}
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainwhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Lemonada', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color: var(--mainSuccess);
+}
+.text-light{
+  color: var(--lightBlue);
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainwhite) !important;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
